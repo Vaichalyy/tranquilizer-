@@ -2,18 +2,17 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-model=load_model('model_file2_70epochs.h5')
-
+model=load_model('tranquilizer-\MODEL\model_file2_70epochs.h5')
 video=cv2.VideoCapture(0)
 
-faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 labels_dict={0:'Anxiety',1:'Neutral'}
 
 while True:
     ret,frame=video.read()
     gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces= faceDetect.detectMultiScale(gray, 1.3, 3)
+    faces= face_cascade.detectMultiScale(gray, 1.3, 3)
     for x,y,w,h in faces:
         sub_face_img=gray[y:y+h, x:x+w]
         resized=cv2.resize(sub_face_img,(48,48))
