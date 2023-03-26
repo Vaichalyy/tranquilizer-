@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from keras.models import load_model
 
-model=load_model('tranquilizer-\MODEL\model_file2_70epochs.h5')
+model= load_model('model_file2_70epochs.h5')
 video=cv2.VideoCapture(0)
 
 file = open('state_values.txt', 'w')
