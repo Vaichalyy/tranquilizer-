@@ -17,6 +17,7 @@ const Home = () => {
                             <div className="buttons d-flex justify-content-center">
                                 <NavLink to="/contact" className="btn btn-light me-4 rounded-pill px-4 py-2">Get Quote</NavLink>
                                 <NavLink to="/service" className="btn btn-outline-light me-4 rounded-pill px-4 py-2">Services</NavLink>
+                                <NavLink to="/detect" className="btn btn-outline-light me-4 rounded-pill px-4 py-2">Detect emotion</NavLink>
                             </div>
                         </div>
                     </div>
