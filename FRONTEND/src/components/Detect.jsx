@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import VideoStream from '../VideoStream';
 
 const Detect = () => {
+  const [showVideoStream, setShowVideoStream] = useState(false);
+
+  const handleButtonClick = () => {
+    setShowVideoStream(true);
+  };
 
   return (
     <div>
@@ -18,7 +23,8 @@ const Detect = () => {
           </div>
           <div>
             <h1>My App</h1>
-            <VideoStream />
+            <button onClick={handleButtonClick}>Start Video Stream</button>
+            {showVideoStream && <VideoStream />}
           </div> 
         </div>
       </section>
