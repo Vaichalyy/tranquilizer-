@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -15,34 +16,21 @@ const Footer = () => {
                                 <h5>Section</h5>
                                 <ul className="nav flex-column">
                                     <li class="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Home
-                                        </a>
+                                    <NavLink className="nav-link p-0 text-white" aria-current="page" to="/" >Home</NavLink>
                                     </li>
 
                                     <li class="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Features
-                                        </a>
+                                    <NavLink className="nav-link p-0 text-white" to="/about"  >About</NavLink>
                                     </li>
 
                                     <li class="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            Pricing
-                                        </a>
+                                        <NavLink className="nav-link p-0 text-white" to="/service"  >Services</NavLink>
                                     </li>
 
                                     <li class="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            FAQs
-                                        </a>
+                                        <NavLink className="nav-link p-0 text-white" to="/contact"  >Contact us</NavLink>
                                     </li>
-
-                                    <li class="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
-                                            About
-                                        </a>
-                                    </li>
+                                
                                 </ul>
                             </div>
                             <div className="col-4 offset-1">
