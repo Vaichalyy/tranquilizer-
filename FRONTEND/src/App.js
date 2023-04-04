@@ -11,7 +11,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Logout from './components/Logout';
 import Detect from './components/Detect';
-
+import Exercise from './components/Exercise';
 
 import { Routes,Route } from 'react-router-dom';
 
@@ -28,6 +28,7 @@ function App() {
       <Route path="/register" element={<Register/>}></Route>
       <Route path="/logout" element={<Logout/>}></Route>
       <Route path="/detect" element={<Detect/>}></Route>
+      <Route path="/exercise" element={<Exercise/>}></Route>
 
 
    </Routes>

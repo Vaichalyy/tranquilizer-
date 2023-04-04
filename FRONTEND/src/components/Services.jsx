@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Services = () => {
     return (
@@ -41,6 +42,7 @@ const Services = () => {
                                     <i className="fa fa-users fa-4x mb-4 text-primary"></i>
                                     <h5 class="card-title mb-3 fs-4 fw-bold">Breathing Exercises</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <NavLink to="/exercise" className="btn btn-outline-light me-4 rounded-pill px-4 py-2">Lets breathe</NavLink>
                                     
                                 </div>
                             </div>
