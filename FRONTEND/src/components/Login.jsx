@@ -34,7 +34,7 @@ const Login = () => {
                 window.alert("Invalid Credentials");
             }else{
                 window.alert("Login Successfull");
-                window.location.reload();
+                window.location.replace("/");
             }
         } catch (error) {
             console.log(error);

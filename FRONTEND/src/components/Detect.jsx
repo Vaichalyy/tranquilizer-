@@ -14,15 +14,15 @@ const Detect = () => {
         <div className="container my-5 py-5">
           <div className="row">
             <div className="col-12">
-              <h3 className="fs-5 text-center mb-0">Classify</h3>
+              {/* <h3 className="fs-5 text-center mb-0">Classify</h3> */}
               <h1 className="display-6 text-center mb-4">
-                Our <b>Awesome</b>Classiy
+                Anxiety Detector
               </h1>
               <hr className="w-15 mx-auto" />
             </div>
           </div>
           <div>
-            <h1>My App</h1>
+            {/* <h1>My App</h1> */}
             <button onClick={handleButtonClick}>Start Video Stream</button>
             {showVideoStream && <VideoStream />}
           </div> 
