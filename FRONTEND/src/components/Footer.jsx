@@ -35,8 +35,8 @@ const Footer = () => {
                             </div>
                             <div className="col-4 offset-1">
                               <form>
-                                <h5>Subscribe to our newletter</h5>
-                                <p>Monthly digest of whats new and exciting from us.</p>
+                                <h5>Subscribe to our newsletter</h5>
+                                <p>Monthly digest of whats new and exciting from us</p>
                                 <div className="d-flex w-100 gap-2">
                                     <label htmlFor="newsletter1" className="visually-hidden">
                                         Email address
@@ -59,7 +59,7 @@ const Footer = () => {
                         </div>
 
                         <div className="d-flex justify-content-between pt-4 mt-4 border-top">
-                            <p>© 2021 Company, Inc. All rights reserved.</p>
+                            <p>© 2023 Tranquilizer</p>
                             <ul className="list-unstyled d-flex">
                                 <li className="ms-3">
                                     <a className="link-light" to="#">
