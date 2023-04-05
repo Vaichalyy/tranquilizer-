@@ -25,9 +25,7 @@ const About = () => {
                             you with a means of identifying symptoms of state anxiety and understanding 
                             your emotional state. <br /><br />
                             In addition to our anxiety detection services, we offer a variety of resources 
-                            to help you manage your anxiety and enhance your gaming experience. Our website 
-                            provides a range of breathing exercises, calming games, and other relaxation 
-                            techniques that can be used to reduce anxiety and promote a sense of well-being. <br /><br />
+                            to help you manage your anxiety and enhance your gaming experience. <br /><br />
                             Our website is designed to provide a safe and supportive environment for you to manage your anxiety and 
                             improve your overall well-being. With our advanced technology and resources, 
                             we're here to help you achieve your best performance and experience gaming in 
