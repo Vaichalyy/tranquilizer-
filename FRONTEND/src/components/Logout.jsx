@@ -28,5 +28,23 @@ const Logout = () =>{
     useEffect(() =>{
         logout();
     }, []);
+
+    return(
+        <div> 
+            <section id="exercise">
+                <div className="container my-5 py-5">
+                    <div className="row">
+                        <div className="col-12">
+                            <br /><br /><br /><br />
+                            <h1 className="display-6 text-center mb-4">
+                                You've been logged out!
+                            </h1>
+                            <hr className="w-15 mx-auto" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        );
 }
 export default Logout;
