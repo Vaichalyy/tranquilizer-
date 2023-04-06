@@ -14,7 +14,6 @@ const Detect = () => {
         <div className="container my-5 py-5">
           <div className="row">
             <div className="col-12">
-              {/* <h3 className="fs-5 text-center mb-0">Classify</h3> */}
               <h1 className="display-6 text-center mb-4">
                 Anxiety Detector
               </h1>
@@ -22,8 +21,7 @@ const Detect = () => {
             </div>
           </div>
           <div>
-            {/* <h1>My App</h1> */}
-            <button onClick={handleButtonClick}>Start Video Stream</button>
+            <button onClick={handleButtonClick} className="btn btn-dark me-4 rounded-pill px-4 py-2">Start Video Stream</button>
             {showVideoStream && <VideoStream />}
           </div> 
         </div>
