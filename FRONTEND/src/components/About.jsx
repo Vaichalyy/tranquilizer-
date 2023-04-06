@@ -15,7 +15,7 @@ const About = () => {
                             <h1 className="display-6 mb-2">Who <b> We </b> Are </h1>
                             <hr className = "w-50"/>
                             <p className="lead mb-4">Welcome to our anxiety detection and management 
-                            website for all you gamers (and non-gamers😉)! <br /><br />
+                            website for all you gamers (and non-gamers😄)! <br /><br />
                             We understand the importance of mental health and 
                             the impact it can have on your gaming experience. That's why we've created 
                             a platform that helps you monitor your anxiety in real-time while you play 
