@@ -1,5 +1,6 @@
-import CoreUIIcons from './coreui-icons'
-import Flags from './flags'
-import Brands from './brands'
+import Alerts from './Alerts'
+import Badges from './Badges'
+import Modals from './Modals'
+import Toaster from './toasts'
 
-export { CoreUIIcons, Flags, Brands }
+export { Alerts, Badges, Modals, Toaster }
